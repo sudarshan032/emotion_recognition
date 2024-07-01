@@ -66,5 +66,5 @@ def display_gif(gif_path):
 
     root.mainloop()
 
-labels, labels1 = speech_emotion_recognition('test audio/emotions/anger_1.wav')
+labels, labels1 = speech_emotion_recognition(r'test audio\neutral_1.wav')
 display_gif(labels)
